@@ -1,6 +1,6 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
-  spec.name          = 'lobster-core'
+  spec.name          = 'rpg-maker-vx-core'
   spec.version       = '1.02a'
   spec.authors       = ['Enterbrain', 'Michael Miller']
   spec.email         = ['bluepixelmike@gmail.com']

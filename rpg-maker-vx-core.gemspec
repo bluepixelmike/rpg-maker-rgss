@@ -1,7 +1,7 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
   spec.name          = 'rpg-maker-vx-core'
-  spec.version       = '1.02a'
+  spec.version       = '1.02.0'
   spec.authors       = ['Enterbrain', 'Michael Miller']
   spec.email         = ['bluepixelmike@gmail.com']
   spec.summary       = %q{Gem containing the built-in classes and modules provided by RPG Maker VX (Ace).}

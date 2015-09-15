@@ -4,6 +4,11 @@ Gem containing the built-in classes and modules provided by RPG Maker VX (Ace).
 The purpose of this gem is provide documentation and code completion reference for external IDEs.
 All credit and ownership for the original code goes to Enterbrain - the creators of RPG Maker.
 
+**NOTE:**
+This gem does *not* implement any of the RPG Maker functionality.
+It is purely for reference usage *only*.
+Attempting to call any method defined by this gem will raise an error.
+
 ## Installation
 
 Add this line to your application's Gemfile:

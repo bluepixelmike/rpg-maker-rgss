@@ -52,6 +52,7 @@ def save_data(obj, filename)
   File.open(filename, 'wb') do |f |
     Marshal.dump(obj, f)
   end
+  nil
 end
 
 # Displays a message box with the values of the arguments passed into this method.

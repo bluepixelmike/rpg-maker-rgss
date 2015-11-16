@@ -1,0 +1,1305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+  Class: RPG::State
+  
+    &mdash; Documentation by YARD 0.8.7.6
+  
+</title>
+
+  <link rel="stylesheet" href="../css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../css/common.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  hasFrames = window.top.frames.main ? true : false;
+  relpath = '../';
+  framesUrl = "../frames.html#!RPG/State.html";
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div id="header">
+      <div id="menu">
+  
+    <a href="../_index.html">Index (S)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../RPG.html" title="RPG (module)">RPG</a></span></span>
+     &raquo; 
+    <span class="title">State</span>
+  
+
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
+
+      <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="../class_list.html">
+      Class List
+    </a>
+  
+    <a class="full_list_link" id="method_list_link"
+        href="../method_list.html">
+      Method List
+    </a>
+  
+    <a class="full_list_link" id="file_list_link"
+        href="../file_list.html">
+      File List
+    </a>
+  
+</div>
+      <div class="clear"></div>
+    </div>
+
+    <iframe id="search_frame"></iframe>
+
+    <div id="content"><h1>Class: RPG::State
+  
+  
+  
+</h1>
+
+<dl class="box">
+  
+    <dt class="r1">Inherits:</dt>
+    <dd class="r1">
+      <span class="inheritName"><span class='object_link'><a href="BaseItem.html" title="RPG::BaseItem (class)">BaseItem</a></span></span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next"><span class='object_link'><a href="BaseItem.html" title="RPG::BaseItem (class)">BaseItem</a></span></li>
+          
+            <li class="next">RPG::State</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+      </dd>
+    
+  
+  
+    
+  
+    
+  
+  
+  
+    <dt class="r2 last">Defined in:</dt>
+    <dd class="r2 last">lib/rpg/state.rb</dd>
+  
+</dl>
+<div class="clear"></div>
+
+
+
+
+
+  <h2>Instance Attribute Summary <small>(<a href="#" class="summary_toggle">collapse</a>)</small></h2>
+  <ul class="summary">
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#auto_removal_timing-instance_method" title="#auto_removal_timing (instance method)">- (Object) <strong>auto_removal_timing</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute auto_removal_timing.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#chance_by_damage-instance_method" title="#chance_by_damage (instance method)">- (Object) <strong>chance_by_damage</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute chance_by_damage.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#max_turns-instance_method" title="#max_turns (instance method)">- (Object) <strong>max_turns</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute max_turns.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#message1-instance_method" title="#message1 (instance method)">- (Object) <strong>message1</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute message1.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#message2-instance_method" title="#message2 (instance method)">- (Object) <strong>message2</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute message2.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#message3-instance_method" title="#message3 (instance method)">- (Object) <strong>message3</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute message3.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#message4-instance_method" title="#message4 (instance method)">- (Object) <strong>message4</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute message4.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#min_turns-instance_method" title="#min_turns (instance method)">- (Object) <strong>min_turns</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute min_turns.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#priority-instance_method" title="#priority (instance method)">- (Object) <strong>priority</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute priority.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#remove_at_battle_end-instance_method" title="#remove_at_battle_end (instance method)">- (Object) <strong>remove_at_battle_end</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute remove_at_battle_end.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#remove_by_damage-instance_method" title="#remove_by_damage (instance method)">- (Object) <strong>remove_by_damage</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute remove_by_damage.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#remove_by_restriction-instance_method" title="#remove_by_restriction (instance method)">- (Object) <strong>remove_by_restriction</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute remove_by_restriction.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#remove_by_walking-instance_method" title="#remove_by_walking (instance method)">- (Object) <strong>remove_by_walking</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute remove_by_walking.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#restriction-instance_method" title="#restriction (instance method)">- (Object) <strong>restriction</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute restriction.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#steps_to_remove-instance_method" title="#steps_to_remove (instance method)">- (Object) <strong>steps_to_remove</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute steps_to_remove.</p>
+</div></span>
+  
+</li>
+
+    
+  </ul>
+
+
+
+  
+  
+  <h3 class="inherited">Attributes inherited from <span class='object_link'><a href="BaseItem.html" title="RPG::BaseItem (class)">BaseItem</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="BaseItem.html#description-instance_method" title="RPG::BaseItem#description (method)">#description</a></span>, <span class='object_link'><a href="BaseItem.html#features-instance_method" title="RPG::BaseItem#features (method)">#features</a></span>, <span class='object_link'><a href="BaseItem.html#icon_index-instance_method" title="RPG::BaseItem#icon_index (method)">#icon_index</a></span>, <span class='object_link'><a href="BaseItem.html#id-instance_method" title="RPG::BaseItem#id (method)">#id</a></span>, <span class='object_link'><a href="BaseItem.html#name-instance_method" title="RPG::BaseItem#name (method)">#name</a></span>, <span class='object_link'><a href="BaseItem.html#note-instance_method" title="RPG::BaseItem#note (method)">#note</a></span></p>
+
+
+  
+    <h2>
+      Instance Method Summary
+      <small>(<a href="#" class="summary_toggle">collapse</a>)</small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#initialize-instance_method" title="#initialize (instance method)">- (State) <strong>initialize</strong> </a>
+    
+
+    
+  </span>
+  
+  
+    <span class="note title constructor">constructor</span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>A new instance of State.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+  
+  
+  
+  
+  
+  <div id="constructor_details" class="method_details_list">
+  <h2>Constructor Details</h2>
+  
+    <div class="method_details first">
+  <h3 class="signature first" id="initialize-instance_method">
+  
+    - (<tt><span class='object_link'><a href="" title="RPG::State (class)">State</a></span></tt>) <strong>initialize</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns a new instance of State</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 3</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_initialize'>initialize</span>
+  <span class='kw'>super</span>
+  <span class='ivar'>@restriction</span> <span class='op'>=</span> <span class='int'>0</span>
+  <span class='ivar'>@priority</span> <span class='op'>=</span> <span class='int'>50</span>
+  <span class='ivar'>@remove_at_battle_end</span> <span class='op'>=</span> <span class='kw'>false</span>
+  <span class='ivar'>@remove_by_restriction</span> <span class='op'>=</span> <span class='kw'>false</span>
+  <span class='ivar'>@auto_removal_timing</span> <span class='op'>=</span> <span class='int'>0</span>
+  <span class='ivar'>@min_turns</span> <span class='op'>=</span> <span class='int'>1</span>
+  <span class='ivar'>@max_turns</span> <span class='op'>=</span> <span class='int'>1</span>
+  <span class='ivar'>@remove_by_damage</span> <span class='op'>=</span> <span class='kw'>false</span>
+  <span class='ivar'>@chance_by_damage</span> <span class='op'>=</span> <span class='int'>100</span>
+  <span class='ivar'>@remove_by_walking</span> <span class='op'>=</span> <span class='kw'>false</span>
+  <span class='ivar'>@steps_to_remove</span> <span class='op'>=</span> <span class='int'>100</span>
+  <span class='ivar'>@message1</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span>
+  <span class='ivar'>@message2</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span>
+  <span class='ivar'>@message3</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span>
+  <span class='ivar'>@message4</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+  
+</div>
+
+  <div id="instance_attr_details" class="attr_details">
+    <h2>Instance Attribute Details</h2>
+    
+      
+      <span id="auto_removal_timing=-instance_method"></span>
+      <div class="method_details first">
+  <h3 class="signature first" id="auto_removal_timing-instance_method">
+  
+    - (<tt>Object</tt>) <strong>auto_removal_timing</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute auto_removal_timing</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+25
+26
+27</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 25</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_auto_removal_timing'>auto_removal_timing</span>
+  <span class='ivar'>@auto_removal_timing</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="chance_by_damage=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="chance_by_damage-instance_method">
+  
+    - (<tt>Object</tt>) <strong>chance_by_damage</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute chance_by_damage</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+29
+30
+31</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 29</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_chance_by_damage'>chance_by_damage</span>
+  <span class='ivar'>@chance_by_damage</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="max_turns=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="max_turns-instance_method">
+  
+    - (<tt>Object</tt>) <strong>max_turns</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute max_turns</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+27
+28
+29</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 27</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_max_turns'>max_turns</span>
+  <span class='ivar'>@max_turns</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="message1=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="message1-instance_method">
+  
+    - (<tt>Object</tt>) <strong>message1</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute message1</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+32
+33
+34</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 32</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_message1'>message1</span>
+  <span class='ivar'>@message1</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="message2=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="message2-instance_method">
+  
+    - (<tt>Object</tt>) <strong>message2</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute message2</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+33
+34
+35</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 33</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_message2'>message2</span>
+  <span class='ivar'>@message2</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="message3=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="message3-instance_method">
+  
+    - (<tt>Object</tt>) <strong>message3</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute message3</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+34
+35
+36</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 34</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_message3'>message3</span>
+  <span class='ivar'>@message3</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="message4=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="message4-instance_method">
+  
+    - (<tt>Object</tt>) <strong>message4</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute message4</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+35
+36
+37</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 35</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_message4'>message4</span>
+  <span class='ivar'>@message4</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="min_turns=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="min_turns-instance_method">
+  
+    - (<tt>Object</tt>) <strong>min_turns</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute min_turns</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+26
+27
+28</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 26</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_min_turns'>min_turns</span>
+  <span class='ivar'>@min_turns</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="priority=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="priority-instance_method">
+  
+    - (<tt>Object</tt>) <strong>priority</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute priority</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+22
+23
+24</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 22</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_priority'>priority</span>
+  <span class='ivar'>@priority</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="remove_at_battle_end=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="remove_at_battle_end-instance_method">
+  
+    - (<tt>Object</tt>) <strong>remove_at_battle_end</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute remove_at_battle_end</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+23
+24
+25</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 23</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_remove_at_battle_end'>remove_at_battle_end</span>
+  <span class='ivar'>@remove_at_battle_end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="remove_by_damage=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="remove_by_damage-instance_method">
+  
+    - (<tt>Object</tt>) <strong>remove_by_damage</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute remove_by_damage</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+28
+29
+30</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 28</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_remove_by_damage'>remove_by_damage</span>
+  <span class='ivar'>@remove_by_damage</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="remove_by_restriction=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="remove_by_restriction-instance_method">
+  
+    - (<tt>Object</tt>) <strong>remove_by_restriction</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute remove_by_restriction</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+24
+25
+26</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 24</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_remove_by_restriction'>remove_by_restriction</span>
+  <span class='ivar'>@remove_by_restriction</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="remove_by_walking=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="remove_by_walking-instance_method">
+  
+    - (<tt>Object</tt>) <strong>remove_by_walking</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute remove_by_walking</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+30
+31
+32</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 30</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_remove_by_walking'>remove_by_walking</span>
+  <span class='ivar'>@remove_by_walking</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="restriction=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="restriction-instance_method">
+  
+    - (<tt>Object</tt>) <strong>restriction</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute restriction</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+21
+22
+23</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 21</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_restriction'>restriction</span>
+  <span class='ivar'>@restriction</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="steps_to_remove=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="steps_to_remove-instance_method">
+  
+    - (<tt>Object</tt>) <strong>steps_to_remove</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute steps_to_remove</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+31
+32
+33</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/state.rb', line 31</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_steps_to_remove'>steps_to_remove</span>
+  <span class='ivar'>@steps_to_remove</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+
+</div>
+
+    <div id="footer">
+  Generated on Mon Nov 16 12:59:51 2015 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.8.7.6 (ruby-2.0.0).
+</div>
+
+  </body>
+</html>

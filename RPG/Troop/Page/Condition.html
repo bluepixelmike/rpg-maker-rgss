@@ -1,0 +1,1074 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+  Class: RPG::Troop::Page::Condition
+  
+    &mdash; Documentation by YARD 0.8.7.6
+  
+</title>
+
+  <link rel="stylesheet" href="../../../css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../../../css/common.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  hasFrames = window.top.frames.main ? true : false;
+  relpath = '../../../';
+  framesUrl = "../../../frames.html#!RPG/Troop/Page/Condition.html";
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div id="header">
+      <div id="menu">
+  
+    <a href="../../../_index.html">Index (C)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../../../RPG.html" title="RPG (module)">RPG</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../../Troop.html" title="RPG::Troop (class)">Troop</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../Page.html" title="RPG::Troop::Page (class)">Page</a></span></span>
+     &raquo; 
+    <span class="title">Condition</span>
+  
+
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
+
+      <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="../../../class_list.html">
+      Class List
+    </a>
+  
+    <a class="full_list_link" id="method_list_link"
+        href="../../../method_list.html">
+      Method List
+    </a>
+  
+    <a class="full_list_link" id="file_list_link"
+        href="../../../file_list.html">
+      File List
+    </a>
+  
+</div>
+      <div class="clear"></div>
+    </div>
+
+    <iframe id="search_frame"></iframe>
+
+    <div id="content"><h1>Class: RPG::Troop::Page::Condition
+  
+  
+  
+</h1>
+
+<dl class="box">
+  
+    <dt class="r1">Inherits:</dt>
+    <dd class="r1">
+      <span class="inheritName">Object</span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next">RPG::Troop::Page::Condition</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+      </dd>
+    
+  
+  
+    
+  
+    
+  
+  
+  
+    <dt class="r2 last">Defined in:</dt>
+    <dd class="r2 last">lib/rpg/troop/page/condition.rb</dd>
+  
+</dl>
+<div class="clear"></div>
+
+
+
+
+
+  <h2>Instance Attribute Summary <small>(<a href="#" class="summary_toggle">collapse</a>)</small></h2>
+  <ul class="summary">
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#actor_hp-instance_method" title="#actor_hp (instance method)">- (Object) <strong>actor_hp</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute actor_hp.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#actor_id-instance_method" title="#actor_id (instance method)">- (Object) <strong>actor_id</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute actor_id.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#actor_valid-instance_method" title="#actor_valid (instance method)">- (Object) <strong>actor_valid</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute actor_valid.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#enemy_hp-instance_method" title="#enemy_hp (instance method)">- (Object) <strong>enemy_hp</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute enemy_hp.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#enemy_index-instance_method" title="#enemy_index (instance method)">- (Object) <strong>enemy_index</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute enemy_index.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#enemy_valid-instance_method" title="#enemy_valid (instance method)">- (Object) <strong>enemy_valid</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute enemy_valid.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#switch_id-instance_method" title="#switch_id (instance method)">- (Object) <strong>switch_id</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute switch_id.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#switch_valid-instance_method" title="#switch_valid (instance method)">- (Object) <strong>switch_valid</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute switch_valid.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#turn_a-instance_method" title="#turn_a (instance method)">- (Object) <strong>turn_a</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute turn_a.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#turn_b-instance_method" title="#turn_b (instance method)">- (Object) <strong>turn_b</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute turn_b.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#turn_ending-instance_method" title="#turn_ending (instance method)">- (Object) <strong>turn_ending</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute turn_ending.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#turn_valid-instance_method" title="#turn_valid (instance method)">- (Object) <strong>turn_valid</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute turn_valid.</p>
+</div></span>
+  
+</li>
+
+    
+  </ul>
+
+
+
+
+  
+    <h2>
+      Instance Method Summary
+      <small>(<a href="#" class="summary_toggle">collapse</a>)</small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#initialize-instance_method" title="#initialize (instance method)">- (Condition) <strong>initialize</strong> </a>
+    
+
+    
+  </span>
+  
+  
+    <span class="note title constructor">constructor</span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>A new instance of Condition.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+<div id="constructor_details" class="method_details_list">
+  <h2>Constructor Details</h2>
+  
+    <div class="method_details first">
+  <h3 class="signature first" id="initialize-instance_method">
+  
+    - (<tt><span class='object_link'><a href="" title="RPG::Troop::Page::Condition (class)">Condition</a></span></tt>) <strong>initialize</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns a new instance of Condition</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/troop/page/condition.rb', line 5</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_initialize'>initialize</span>
+  <span class='ivar'>@turn_ending</span> <span class='op'>=</span> <span class='kw'>false</span>
+  <span class='ivar'>@turn_valid</span> <span class='op'>=</span> <span class='kw'>false</span>
+  <span class='ivar'>@enemy_valid</span> <span class='op'>=</span> <span class='kw'>false</span>
+  <span class='ivar'>@actor_valid</span> <span class='op'>=</span> <span class='kw'>false</span>
+  <span class='ivar'>@switch_valid</span> <span class='op'>=</span> <span class='kw'>false</span>
+  <span class='ivar'>@turn_a</span> <span class='op'>=</span> <span class='int'>0</span>
+  <span class='ivar'>@turn_b</span> <span class='op'>=</span> <span class='int'>0</span>
+  <span class='ivar'>@enemy_index</span> <span class='op'>=</span> <span class='int'>0</span>
+  <span class='ivar'>@enemy_hp</span> <span class='op'>=</span> <span class='int'>50</span>
+  <span class='ivar'>@actor_id</span> <span class='op'>=</span> <span class='int'>1</span>
+  <span class='ivar'>@actor_hp</span> <span class='op'>=</span> <span class='int'>50</span>
+  <span class='ivar'>@switch_id</span> <span class='op'>=</span> <span class='int'>1</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+  
+</div>
+
+  <div id="instance_attr_details" class="attr_details">
+    <h2>Instance Attribute Details</h2>
+    
+      
+      <span id="actor_hp=-instance_method"></span>
+      <div class="method_details first">
+  <h3 class="signature first" id="actor_hp-instance_method">
+  
+    - (<tt>Object</tt>) <strong>actor_hp</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute actor_hp</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+29
+30
+31</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/troop/page/condition.rb', line 29</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_actor_hp'>actor_hp</span>
+  <span class='ivar'>@actor_hp</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="actor_id=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="actor_id-instance_method">
+  
+    - (<tt>Object</tt>) <strong>actor_id</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute actor_id</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+28
+29
+30</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/troop/page/condition.rb', line 28</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_actor_id'>actor_id</span>
+  <span class='ivar'>@actor_id</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="actor_valid=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="actor_valid-instance_method">
+  
+    - (<tt>Object</tt>) <strong>actor_valid</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute actor_valid</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+22
+23
+24</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/troop/page/condition.rb', line 22</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_actor_valid'>actor_valid</span>
+  <span class='ivar'>@actor_valid</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="enemy_hp=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="enemy_hp-instance_method">
+  
+    - (<tt>Object</tt>) <strong>enemy_hp</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute enemy_hp</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+27
+28
+29</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/troop/page/condition.rb', line 27</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_enemy_hp'>enemy_hp</span>
+  <span class='ivar'>@enemy_hp</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="enemy_index=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="enemy_index-instance_method">
+  
+    - (<tt>Object</tt>) <strong>enemy_index</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute enemy_index</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+26
+27
+28</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/troop/page/condition.rb', line 26</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_enemy_index'>enemy_index</span>
+  <span class='ivar'>@enemy_index</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="enemy_valid=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="enemy_valid-instance_method">
+  
+    - (<tt>Object</tt>) <strong>enemy_valid</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute enemy_valid</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+21
+22
+23</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/troop/page/condition.rb', line 21</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_enemy_valid'>enemy_valid</span>
+  <span class='ivar'>@enemy_valid</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="switch_id=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="switch_id-instance_method">
+  
+    - (<tt>Object</tt>) <strong>switch_id</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute switch_id</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+30
+31
+32</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/troop/page/condition.rb', line 30</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_switch_id'>switch_id</span>
+  <span class='ivar'>@switch_id</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="switch_valid=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="switch_valid-instance_method">
+  
+    - (<tt>Object</tt>) <strong>switch_valid</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute switch_valid</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+23
+24
+25</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/troop/page/condition.rb', line 23</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_switch_valid'>switch_valid</span>
+  <span class='ivar'>@switch_valid</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="turn_a=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="turn_a-instance_method">
+  
+    - (<tt>Object</tt>) <strong>turn_a</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute turn_a</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+24
+25
+26</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/troop/page/condition.rb', line 24</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_turn_a'>turn_a</span>
+  <span class='ivar'>@turn_a</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="turn_b=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="turn_b-instance_method">
+  
+    - (<tt>Object</tt>) <strong>turn_b</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute turn_b</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+25
+26
+27</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/troop/page/condition.rb', line 25</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_turn_b'>turn_b</span>
+  <span class='ivar'>@turn_b</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="turn_ending=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="turn_ending-instance_method">
+  
+    - (<tt>Object</tt>) <strong>turn_ending</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute turn_ending</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+19
+20
+21</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/troop/page/condition.rb', line 19</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_turn_ending'>turn_ending</span>
+  <span class='ivar'>@turn_ending</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="turn_valid=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="turn_valid-instance_method">
+  
+    - (<tt>Object</tt>) <strong>turn_valid</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute turn_valid</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+20
+21
+22</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/troop/page/condition.rb', line 20</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_turn_valid'>turn_valid</span>
+  <span class='ivar'>@turn_valid</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+
+</div>
+
+    <div id="footer">
+  Generated on Mon Nov 16 12:59:53 2015 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.8.7.6 (ruby-2.0.0).
+</div>
+
+  </body>
+</html>

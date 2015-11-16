@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+  Class: RPG::Item
+  
+    &mdash; Documentation by YARD 0.8.7.6
+  
+</title>
+
+  <link rel="stylesheet" href="../css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../css/common.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  hasFrames = window.top.frames.main ? true : false;
+  relpath = '../';
+  framesUrl = "../frames.html#!RPG/Item.html";
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div id="header">
+      <div id="menu">
+  
+    <a href="../_index.html">Index (I)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../RPG.html" title="RPG (module)">RPG</a></span></span>
+     &raquo; 
+    <span class="title">Item</span>
+  
+
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
+
+      <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="../class_list.html">
+      Class List
+    </a>
+  
+    <a class="full_list_link" id="method_list_link"
+        href="../method_list.html">
+      Method List
+    </a>
+  
+    <a class="full_list_link" id="file_list_link"
+        href="../file_list.html">
+      File List
+    </a>
+  
+</div>
+      <div class="clear"></div>
+    </div>
+
+    <iframe id="search_frame"></iframe>
+
+    <div id="content"><h1>Class: RPG::Item
+  
+  
+  
+</h1>
+
+<dl class="box">
+  
+    <dt class="r1">Inherits:</dt>
+    <dd class="r1">
+      <span class="inheritName"><span class='object_link'><a href="UsableItem.html" title="RPG::UsableItem (class)">UsableItem</a></span></span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next"><span class='object_link'><a href="BaseItem.html" title="RPG::BaseItem (class)">BaseItem</a></span></li>
+          
+            <li class="next"><span class='object_link'><a href="UsableItem.html" title="RPG::UsableItem (class)">UsableItem</a></span></li>
+          
+            <li class="next">RPG::Item</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+      </dd>
+    
+  
+  
+    
+  
+    
+  
+  
+  
+    <dt class="r2 last">Defined in:</dt>
+    <dd class="r2 last">lib/rpg/item.rb</dd>
+  
+</dl>
+<div class="clear"></div>
+
+
+
+
+
+  <h2>Instance Attribute Summary <small>(<a href="#" class="summary_toggle">collapse</a>)</small></h2>
+  <ul class="summary">
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#consumable-instance_method" title="#consumable (instance method)">- (Object) <strong>consumable</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute consumable.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#itype_id-instance_method" title="#itype_id (instance method)">- (Object) <strong>itype_id</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute itype_id.</p>
+</div></span>
+  
+</li>
+
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#price-instance_method" title="#price (instance method)">- (Object) <strong>price</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Returns the value of attribute price.</p>
+</div></span>
+  
+</li>
+
+    
+  </ul>
+
+
+
+  
+  
+  <h3 class="inherited">Attributes inherited from <span class='object_link'><a href="UsableItem.html" title="RPG::UsableItem (class)">UsableItem</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="UsableItem.html#animation_id-instance_method" title="RPG::UsableItem#animation_id (method)">#animation_id</a></span>, <span class='object_link'><a href="UsableItem.html#damage-instance_method" title="RPG::UsableItem#damage (method)">#damage</a></span>, <span class='object_link'><a href="UsableItem.html#effects-instance_method" title="RPG::UsableItem#effects (method)">#effects</a></span>, <span class='object_link'><a href="UsableItem.html#hit_type-instance_method" title="RPG::UsableItem#hit_type (method)">#hit_type</a></span>, <span class='object_link'><a href="UsableItem.html#occasion-instance_method" title="RPG::UsableItem#occasion (method)">#occasion</a></span>, <span class='object_link'><a href="UsableItem.html#repeats-instance_method" title="RPG::UsableItem#repeats (method)">#repeats</a></span>, <span class='object_link'><a href="UsableItem.html#scope-instance_method" title="RPG::UsableItem#scope (method)">#scope</a></span>, <span class='object_link'><a href="UsableItem.html#speed-instance_method" title="RPG::UsableItem#speed (method)">#speed</a></span>, <span class='object_link'><a href="UsableItem.html#success_rate-instance_method" title="RPG::UsableItem#success_rate (method)">#success_rate</a></span>, <span class='object_link'><a href="UsableItem.html#tp_gain-instance_method" title="RPG::UsableItem#tp_gain (method)">#tp_gain</a></span></p>
+
+  
+  
+  <h3 class="inherited">Attributes inherited from <span class='object_link'><a href="BaseItem.html" title="RPG::BaseItem (class)">BaseItem</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="BaseItem.html#description-instance_method" title="RPG::BaseItem#description (method)">#description</a></span>, <span class='object_link'><a href="BaseItem.html#features-instance_method" title="RPG::BaseItem#features (method)">#features</a></span>, <span class='object_link'><a href="BaseItem.html#icon_index-instance_method" title="RPG::BaseItem#icon_index (method)">#icon_index</a></span>, <span class='object_link'><a href="BaseItem.html#id-instance_method" title="RPG::BaseItem#id (method)">#id</a></span>, <span class='object_link'><a href="BaseItem.html#name-instance_method" title="RPG::BaseItem#name (method)">#name</a></span>, <span class='object_link'><a href="BaseItem.html#note-instance_method" title="RPG::BaseItem#note (method)">#note</a></span></p>
+
+
+  
+    <h2>
+      Instance Method Summary
+      <small>(<a href="#" class="summary_toggle">collapse</a>)</small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#initialize-instance_method" title="#initialize (instance method)">- (Item) <strong>initialize</strong> </a>
+    
+
+    
+  </span>
+  
+  
+    <span class="note title constructor">constructor</span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>A new instance of Item.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#key_item%3F-instance_method" title="#key_item? (instance method)">- (Boolean) <strong>key_item?</strong> </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <h3 class="inherited">Methods inherited from <span class='object_link'><a href="UsableItem.html" title="RPG::UsableItem (class)">UsableItem</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="UsableItem.html#battle_ok%3F-instance_method" title="RPG::UsableItem#battle_ok? (method)">#battle_ok?</a></span>, <span class='object_link'><a href="UsableItem.html#certain%3F-instance_method" title="RPG::UsableItem#certain? (method)">#certain?</a></span>, <span class='object_link'><a href="UsableItem.html#for_all%3F-instance_method" title="RPG::UsableItem#for_all? (method)">#for_all?</a></span>, <span class='object_link'><a href="UsableItem.html#for_dead_friend%3F-instance_method" title="RPG::UsableItem#for_dead_friend? (method)">#for_dead_friend?</a></span>, <span class='object_link'><a href="UsableItem.html#for_friend%3F-instance_method" title="RPG::UsableItem#for_friend? (method)">#for_friend?</a></span>, <span class='object_link'><a href="UsableItem.html#for_one%3F-instance_method" title="RPG::UsableItem#for_one? (method)">#for_one?</a></span>, <span class='object_link'><a href="UsableItem.html#for_opponent%3F-instance_method" title="RPG::UsableItem#for_opponent? (method)">#for_opponent?</a></span>, <span class='object_link'><a href="UsableItem.html#for_random%3F-instance_method" title="RPG::UsableItem#for_random? (method)">#for_random?</a></span>, <span class='object_link'><a href="UsableItem.html#for_user%3F-instance_method" title="RPG::UsableItem#for_user? (method)">#for_user?</a></span>, <span class='object_link'><a href="UsableItem.html#magical%3F-instance_method" title="RPG::UsableItem#magical? (method)">#magical?</a></span>, <span class='object_link'><a href="UsableItem.html#menu_ok%3F-instance_method" title="RPG::UsableItem#menu_ok? (method)">#menu_ok?</a></span>, <span class='object_link'><a href="UsableItem.html#need_selection%3F-instance_method" title="RPG::UsableItem#need_selection? (method)">#need_selection?</a></span>, <span class='object_link'><a href="UsableItem.html#number_of_targets-instance_method" title="RPG::UsableItem#number_of_targets (method)">#number_of_targets</a></span>, <span class='object_link'><a href="UsableItem.html#physical%3F-instance_method" title="RPG::UsableItem#physical? (method)">#physical?</a></span></p>
+
+  
+  
+  
+  
+  
+  <div id="constructor_details" class="method_details_list">
+  <h2>Constructor Details</h2>
+  
+    <div class="method_details first">
+  <h3 class="signature first" id="initialize-instance_method">
+  
+    - (<tt><span class='object_link'><a href="" title="RPG::Item (class)">Item</a></span></tt>) <strong>initialize</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns a new instance of Item</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+3
+4
+5
+6
+7
+8
+9</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/item.rb', line 3</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_initialize'>initialize</span>
+  <span class='kw'>super</span>
+  <span class='ivar'>@scope</span> <span class='op'>=</span> <span class='int'>7</span>
+  <span class='ivar'>@itype_id</span> <span class='op'>=</span> <span class='int'>1</span>
+  <span class='ivar'>@price</span> <span class='op'>=</span> <span class='int'>0</span>
+  <span class='ivar'>@consumable</span> <span class='op'>=</span> <span class='kw'>true</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+  
+</div>
+
+  <div id="instance_attr_details" class="attr_details">
+    <h2>Instance Attribute Details</h2>
+    
+      
+      <span id="consumable=-instance_method"></span>
+      <div class="method_details first">
+  <h3 class="signature first" id="consumable-instance_method">
+  
+    - (<tt>Object</tt>) <strong>consumable</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute consumable</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+15
+16
+17</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/item.rb', line 15</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_consumable'>consumable</span>
+  <span class='ivar'>@consumable</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="itype_id=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="itype_id-instance_method">
+  
+    - (<tt>Object</tt>) <strong>itype_id</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute itype_id</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+13
+14
+15</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/item.rb', line 13</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_itype_id'>itype_id</span>
+  <span class='ivar'>@itype_id</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      
+      <span id="price=-instance_method"></span>
+      <div class="method_details ">
+  <h3 class="signature " id="price-instance_method">
+  
+    - (<tt>Object</tt>) <strong>price</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns the value of attribute price</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+14
+15
+16</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/item.rb', line 14</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_price'>price</span>
+  <span class='ivar'>@price</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="key_item?-instance_method">
+  
+    - (<tt>Boolean</tt>) <strong>key_item?</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Boolean</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+10
+11
+12</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/rpg/item.rb', line 10</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_key_item?'>key_item?</span>
+  <span class='ivar'>@itype_id</span> <span class='op'>==</span> <span class='int'>2</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+    <div id="footer">
+  Generated on Mon Nov 16 12:59:50 2015 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.8.7.6 (ruby-2.0.0).
+</div>
+
+  </body>
+</html>

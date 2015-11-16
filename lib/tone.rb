@@ -1,4 +1,4 @@
-# Color components grouped into a single object.
+# Color adjustments grouped into a single object.
 # Tones consist of red, green, blue, and gray.
 # Each color component uses a floating-point value
 # and is restricted to the range -255 to 255.

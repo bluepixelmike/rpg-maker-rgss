@@ -29,6 +29,7 @@ class Color
   # @overload set(color)
   #   Copies the component values from another color.
   #   @param color [Color] Color to copy component values from.
+  # @return [self]
   def set(*args)
     fail NotImplementedError
   end

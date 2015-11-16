@@ -19,4 +19,5 @@ All credit and ownership for the original code goes to Enterbrain - the creators
 
   spec.add_development_dependency 'bundler', '~> 1.7'
   spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'yard'
 end
